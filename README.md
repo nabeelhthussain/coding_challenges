@@ -1,4 +1,4 @@
-## Coding Challenge
+# Coding Challenge
 
 • Connected Cities
   
@@ -18,7 +18,7 @@
       
       curl -XPOST http://127.0.0.1:8080/company/Apple -H "Content-Type: application/json"  --data '{ "company": "Apple", "views": "1199", "title": "Technology" }'
       
-      # OUTPUT:
+      ## OUTPUT:
       
       {
           "company": "Apple",
@@ -30,7 +30,7 @@
  
       curl -XGET http://127.0.0.1:8080/company/Apple
       
-      # OUTPUT:
+      ## OUTPUT:
       
       {
           "company": "Apple",
