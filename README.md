@@ -1,4 +1,4 @@
-# Coding Challenge
+## Coding Challenge
 
 • Connected Cities
   
@@ -17,6 +17,9 @@
   2. run a POST command using:
       
       curl -XPOST http://127.0.0.1:8080/company/Apple -H "Content-Type: application/json"  --data '{ "company": "Apple", "views": "1199", "title": "Technology" }'
+      
+      # OUTPUT:
+      
       {
           "company": "Apple",
           "views": "1199",
@@ -26,6 +29,9 @@
   3. run a GET command using:
  
       curl -XGET http://127.0.0.1:8080/company/Apple
+      
+      # OUTPUT:
+      
       {
           "company": "Apple",
           "views": "1199",
