@@ -10,8 +10,9 @@
 
   1. download simulated_race.py
   2. Optional: adjust any parameters within simulated_race.py - [num_samples, distance, accelerations/velocities for car, motorbike, truck, A = frontal area of vehicle, drag coefficient (cd_car, cd_motorbike, cd_truck)
-  3. run simulated_race.py from terminal to view simulation results
-  4. plotted in race_results.png
+  3. The simulation uses basic physics formulae to simulate the time needed for each vehicle to complete the race given the set of parameters above
+  4. run simulated_race.py from terminal to view simulation results
+  5. plotted in race_results.png
 
 • Simple Rest/Microservice
 
