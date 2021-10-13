@@ -97,6 +97,6 @@ if __name__ == '__main__':
     num_samples = 100000
     distance = 1000
     car_wins,motorbike_wins,truck_wins=monte_carlo(num_samples, distance) # (iterations, race distance in m)
-    plt.bar(["Car", "Motorbike", "Truck"],[car_wins,motorbike_wins,truck_wins])
-    plt.title("Number of Race Wins by Vehicle Type")
-    plt.ylabel("Race Wins")
+    #plt.bar(["Car", "Motorbike", "Truck"],[car_wins,motorbike_wins,truck_wins])
+    #plt.title("Number of Race Wins by Vehicle Type")
+    #plt.ylabel("Race Wins")
