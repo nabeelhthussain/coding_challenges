@@ -9,8 +9,9 @@
 • Race simulation
 
   1. download simulated_race.py
-  2. Optional: adjust any parameters within simulated_race.py 
+  2. Optional: adjust any parameters within simulated_race.py - [num_samples, distance, accelerations/velocities for car, motorbike, truck, A = frontal area of vehicle, drag coefficient (cd_car, cd_motorbike, cd_truck)
   3. run simulated_race.py from terminal to view simulation results
+  4. plotted in race_results.py
 
 • Simple Rest/Microservice
 
